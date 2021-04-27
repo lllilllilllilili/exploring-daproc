@@ -53,7 +53,7 @@ steps:
   - | 
       cd environments/$BRANCH_NAME      
       terraform apply -auto-approve
-  timeout: 2000s
+  
 ## [END tf-apply]      
 #
 ##############################
