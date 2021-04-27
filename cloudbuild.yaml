@@ -42,6 +42,7 @@ steps:
   - | 
       cd environments/$BRANCH_NAME
       terraform plan
+  - '-lock=false'
 ## [END tf-plan]
 
 ## [START tf-apply]
