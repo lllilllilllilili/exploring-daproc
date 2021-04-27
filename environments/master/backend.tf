@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "ctic-classes"
+    bucket = "asj-test"
     prefix = "terraform/master"
   }
 }
