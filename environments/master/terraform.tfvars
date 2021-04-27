@@ -10,7 +10,7 @@ project = "jungang-poc"
 staging_bucket = "gs://asj-test/temp"
 
 #Enter your region
-region = "us-central1"
+region = "asia-northeast3"
 
 # replace with n1-standard-1 if you only want to test
 machine_types = {
