@@ -1,6 +1,5 @@
-  
 steps:
 - name: 'hashicorp/terraform'
   args: ['init']
 - name: 'hashicorp/terraform'
-  args: ['destroy','-var=jungang-poc=<Jungang-POC>,'-auto-approve']
+  args: ['destroy','-var=PROJECT_ID=<PROJECTNAME>,'-auto-approve']
